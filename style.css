@@ -1,0 +1,43 @@
+html, body {
+    overflow: hidden;
+    font: 16px/1.4 'Apple Chancery', cursive;
+    color: #fefeff;
+  }
+  body {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+  .h1 {
+    font: 1.5em 'Apple Chancery', cursive;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+  }
+  .h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+  .h1 a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .clock {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Apple Chancery', cursive;
+    letter-spacing: 5px;
+}
